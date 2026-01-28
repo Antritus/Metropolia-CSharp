@@ -20,6 +20,14 @@ namespace Metropolia_CSharp
                 Console.WriteLine(" - T5-1, T5-2, T5-3, T5-4");
                 Console.WriteLine("Silmukkarankenteet");
                 Console.WriteLine(" - T6-1, T6-2, T6-3, T6-4, T6-5");
+                Console.WriteLine("Listat ja taulukot");
+                Console.WriteLine(" - T7-1, T7-2");
+                Console.WriteLine("Tiedostojen käyttö");
+                Console.WriteLine(" - T8-1, T8-2, T8-3, T8-4, T8-5");
+                Console.WriteLine("Olio-Ohjelmointi");
+                Console.WriteLine(" - T9-1, T9-2, T9-3, T9-4, T9-5, T9-6");
+                Console.WriteLine("Harjoitus tehtäviä");
+                Console.WriteLine(" - T10-1, T10-2, T10-3, T10-4, T0+-5, T10-6, T10-7");
                 Console.Write("Valitse ohjelma: ");
                 string program = Console.ReadLine();
                 Console.WriteLine();
@@ -91,6 +99,63 @@ namespace Metropolia_CSharp
                 } else if (program == "T6-5")
                 {
                     T6_5.Run(args);
+                } else if (program == "T7-1")
+                {
+                    T7_1.Run(args);
+                } else if (program == "T7-2")
+                {
+                    T7_2.Run(args);
+                } else if (program == "T8-1")
+                {
+                    T8_1.Run(args);
+                } else if (program == "T8-2")
+                {
+                    T8_2.Run(args);
+                } else if (program == "T8-3")
+                {
+                    T8_3.Run(args);
+                } else if (program == "T8-4")
+                {
+                    T8_4.Run(args);
+                } else if (program == "T8-5")
+                {
+                    T8_5.Run(args);
+                } else if (program == "T9-1")
+                {
+                    T9_1.Run(args);
+                } else if (program == "T9-2")
+                {
+                    T9_2.Run(args);
+                } else if (program == "T9-3")
+                {
+                    T9_3.Run(args);
+                } else if (program == "T9-4")
+                {
+                    T9_4.Run(args);
+                } else if (program == "T9-5")
+                {
+                    T9_5.Run(args);
+                } else if (program == "T10-1")
+                {
+                    T10_1.Run(args);
+                } else if (program == "T10-2")
+                {
+                    T10_2.Run(args);
+                } else if (program == "T10-3")
+                {
+                    T10_3.Run(args);
+                } else if (program == "T10-4")
+                {
+                    T10_4.Run(args);
+                } else if (program == "T10-5")
+                {
+                    T10_5.Run(args);
+                } else if (program == "T10-6")
+                {
+                    T10_6.Run(args);
+                } else if (program == "T10-7")
+                {
+                    T10_7.Run(args);
                 }
                 Console.WriteLine();
             }
